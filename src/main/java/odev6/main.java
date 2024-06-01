@@ -46,7 +46,7 @@ public class main {
 
 
         String rasgeleKelime = "";
-        for (int i = 0; i < harfler.size(); i++) {
+        for (int i = 0; i < rSayi.nextInt(harfler.size()); i++) {
             rasgeleKelime += harfler.get(rSayi.nextInt(harfler.size()));
         }
         System.out.println("Tekrar eden kelimeler: " + tekrarKelime);
