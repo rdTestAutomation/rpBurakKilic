@@ -8,7 +8,6 @@ public class main {
 
         Scanner sc = new Scanner(System.in);
         int toplamNot = 0;
-        boolean devam = true;
         while (true) {
             try {
 
