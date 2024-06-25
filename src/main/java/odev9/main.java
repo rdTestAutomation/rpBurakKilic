@@ -33,8 +33,8 @@ public class main {
                 continue;
             }
             catch (InputMismatchException e){
-                System.out.println("Hata! Metinsel ifade yaklandı. Sayı giriniz.");
-                sc.next();
+                throw new StringIfadeHata("Metinsel ifade ");
+
             }
             catch (Exception e){
                 System.out.println("Bir hata ile karşılaşıldı. Program sonlandırıldı.");
@@ -44,10 +44,7 @@ public class main {
                 System.out.println("Program sonlandırıldı.");
             }
         }
-
-
     }
-
 }
 
 
